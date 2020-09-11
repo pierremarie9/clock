@@ -1,0 +1,34 @@
+#clock{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+}
+
+.watch{
+    transform-origin: center left;
+    position: absolute;
+    background-color: black;
+    height: 4px;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#seconds{
+    width: 95px;
+    height: 2px;
+}
+
+#minutes{
+    width: 90px;
+    height: 3px;
+}
+
+#hours{
+    width: 60px;
+}
